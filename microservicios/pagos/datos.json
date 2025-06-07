@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "residenteId": "1",
+    "monto": 2500,
+    "fecha": "2025-06-04",
+    "estado": "pendiente"
+  },
+  {
+    "id": "2",
+    "residenteId": "2",
+    "monto": 3000,
+    "fecha": "2025-06-05",
+    "estado": "pagado"
+  },
+  {
+    "id": "3",
+    "residenteId": "3",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "4",
+    "residenteId": "4",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "5",
+    "residenteId": "5",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "6",
+    "residenteId": "6",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "7",
+    "residenteId": "7",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "8",
+    "residenteId": "8",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "9",
+    "residenteId": "9",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  },
+  {
+    "id": "10",
+    "residenteId": "10",
+    "monto": 3200,
+    "fecha": "2025-02-04T00:00:00.000Z",
+    "estado": "pendiente"
+  }
+]

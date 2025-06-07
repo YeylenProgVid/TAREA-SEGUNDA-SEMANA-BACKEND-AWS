@@ -1,0 +1,58 @@
+version: "3.9"
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "3000:3000"
+    depends_on:
+      - residentes
+      - pagos
+      - nginx # redirige ahora a nginx, no directamente a facturacion
+      - notificador
+      - auth
+      - procesador
+
+  residentes:
+    build: ./microservicios/residentes
+    ports:
+      - "3001:3001"
+
+  pagos:
+    build: ./microservicios/pagos
+    ports:
+      - "3002:3002"
+
+  facturacion1:
+    build: ./microservicios/facturacion
+    container_name: facturacion1
+    ports:
+      - "3003:3003" # Puedes mantener esto para debug directo si lo deseas
+
+  facturacion2:
+    build: ./microservicios/facturacion
+    container_name: facturacion2
+    ports:
+      - "3008:3003" # El puerto externo cambia, pero el interno (3003) es igual
+
+  notificador:
+    build: ./microservicios/notificador
+    ports:
+      - "3004:3004"
+
+  auth:
+    build: ./microservicios/auth
+    ports:
+      - "3005:3005"
+
+  procesador:
+    build: ./microservicios/procesador
+    ports:
+      - "3006:3006"
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "8080:80" #usa esto para acceder a los balanceados
+    depends_on:
+      - facturacion1
+      - facturacion2

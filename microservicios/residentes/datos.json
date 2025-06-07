@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "nombre": "Francisco Peña",
+    "apartamento": "A101",
+    "telefono": "8091234567"
+  },
+  {
+    "id": "2",
+    "nombre": "Carlos Gómez",
+    "apartamento": "B202",
+    "telefono": "8097654321"
+  },
+  {
+    "id": "3",
+    "nombre": "Adonis",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "4",
+    "nombre": "Frank",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "5",
+    "nombre": "Angela",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "6",
+    "nombre": "Fausto",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "7",
+    "nombre": "Peralta",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "8",
+    "nombre": "Mercedes",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "9",
+    "nombre": "Juliana",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  },
+  {
+    "id": "10",
+    "nombre": "Fermin",
+    "apartamento": "A3",
+    "telefono": "8297751138"
+  }
+]
